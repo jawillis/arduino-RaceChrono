@@ -2,7 +2,7 @@
 #ifndef _RACECHRONOESP32_H
 #define _RACECHRONOESP32_H
 
-#include <RaceChrono.h>
+#include <RaceChronoBle.h>
 #include <NimBLEDevice.h>
 #include "RaceChronoPidMap.h"
 

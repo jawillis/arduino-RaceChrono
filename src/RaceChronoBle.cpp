@@ -1,10 +1,14 @@
-#include "RaceChrono.h"
+#include "RaceChronoBle.h"
 
 #define MAIN_SERVICE_NAME           (uint16_t) 0x1ff8
 #define PID_CHARACTERISTIC          (uint16_t) 0x02
 #define CANBUS_CHARACTERISTIC       (uint16_t) 0x01
 
 // namespace {
+RaceChronoBleCanHandler::~RaceChronoBleCanHandler() {}
+RaceChronoBleCanHandler::allowAllPids(uint16_t updateIntervalMs) {}
+
+
 RaceChronoBleCanHandler RaceChronoBleAgent::*handler = nullptr;
 
 void RaceChronoBleAgent::handleFilterRequest(RaceChronoBleCanHandler *handler, uint8_t *data, uint16_t len) {

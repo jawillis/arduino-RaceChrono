@@ -2,7 +2,7 @@
 #ifndef __RACECHRONONRF52_H
 #define __RACECHRONONRF52_H
 
-#include <RaceChrono.h>
+#include <RaceChronoBle.h>
 #include <bluefruit.h>
 #include "RaceChronoPidMap.h"
 

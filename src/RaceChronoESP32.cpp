@@ -11,6 +11,7 @@ RaceChronoESP32 RaceChronoBle;
 
 class handleRaceChronoFilterRequestClass: public NimBLECharacteristicCallbacks {
 
+  public:
   RaceChronoBleCanHandler handler;
 
   handleRaceChronoFilterRequestClass(RaceChronoBleCanHandler handler) 
