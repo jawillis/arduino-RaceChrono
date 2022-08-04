@@ -6,8 +6,9 @@
 
 // namespace {
 RaceChronoBleCanHandler::~RaceChronoBleCanHandler() {}
-RaceChronoBleCanHandler::allowAllPids(uint16_t updateIntervalMs) {}
-
+void RaceChronoBleCanHandler::allowAllPids(uint16_t updateIntervalMs) {}
+void RaceChronoBleCanHandler::denyAllPids() {};
+void RaceChronoBleCanHandler::allowPid(uint32_t pid, uint16_t updateIntervalMs) {};
 
 RaceChronoBleCanHandler RaceChronoBleAgent::*handler = nullptr;
 
